@@ -1,0 +1,14 @@
+package main
+
+type Character struct {
+	Nom              string
+	Classe           string
+	Niveau           int
+	PointsVieMax     int
+	PointsVieActuels int
+	Inventaire       map[string]int
+	Coins            int
+	XP               int
+	Quetes           []string
+	Succes           []string
+}
